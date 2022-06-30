@@ -1,0 +1,75 @@
+.content {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--gray-400);
+  border-radius: 2px;
+}
+
+.task,
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskText,
+.countText {
+  font-size: 1rem;
+  margin-right: 0.3125rem;
+}
+
+.taskText {
+  color: var(--blue);
+}
+
+.countText {
+  color: var(--purple);
+}
+
+.taskAmount,
+.countAmount {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 8px;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.main {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: rem;
+}
+
+.emptyIcon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.875rem;
+  color: var(--gray-400);
+}
+
+.emptyText {
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.emptyText p {
+  color: var(--gray-300);
+}
+
+.emptyText span {
+  color: var(--gray-400);
+}
+
+.list {
+  padding-top: 3rem;
+}
