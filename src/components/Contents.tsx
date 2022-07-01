@@ -50,7 +50,7 @@ export function Content() {
   };
 
   const DeletTask = (taskToDelete: string) => {
-    let TaskWithoutDeletedOne = lists.filter((list) => {
+    const TaskWithoutDeletedOne = lists.filter((list) => {
       return list !== lists.find((list) => list.name === taskToDelete);
     });
     setLists(TaskWithoutDeletedOne);
